@@ -1,0 +1,9 @@
+.navbar-custom {
+    background-color:#1A237E;
+}
+
+.navbar-custom > a ,
+.navbar-custom > a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}

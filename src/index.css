@@ -1,0 +1,31 @@
+.container{
+    margin-top:2rem;
+}
+
+.hash-break{
+    word-break: break-all;
+}
+
+.active-text-color{
+    color: #ffffff;
+    font-weight:600;
+}
+
+.no-margin{
+    margin:0;
+}
+
+.base-padding{
+    padding:1rem;
+}
+
+label{
+    font-weight:600;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
