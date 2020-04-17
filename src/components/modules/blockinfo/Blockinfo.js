@@ -36,7 +36,7 @@ class Blockinfo extends Component {
 
     async componentDidMount() {
         const block_hash = this.props.match.params.id
-        const url = `${this.URL_PATH}/${block_hash}`;
+        const url = `${this.URL_PATH}/${block_hash}?&cors=true`;
         doAsyncRequest(url)
             .then(response => {
                 this.setState({ block: response, isBlockLoaded: true });

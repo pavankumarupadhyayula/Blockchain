@@ -24,7 +24,7 @@ function GetLatestBlock({params}) {
 }
 
 class Latestblock extends Component {
-    URL_PATH = "latestblock";
+    URL_PATH = "latestblock?&cors=true";
     
     constructor(props){
         super(props);

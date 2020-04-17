@@ -3,7 +3,7 @@ import doAsyncRequest from "./../../../services/httpRequestService";
 
 class Listofblocks extends Component {
     URL_PATH = "blocks";
-    FORMAT = "format=json";
+    FORMAT = "format=json&cors=true";
 
     constructor(props) {
         super(props);
