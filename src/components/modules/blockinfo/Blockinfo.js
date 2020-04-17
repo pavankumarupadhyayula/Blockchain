@@ -15,7 +15,7 @@ function BlockDetails ({value}) {
            </li>
            <li className={value.n_tx > 0 ? "list-group-item show":"list-group-item hide"} >
                 <h6>Single Transaction Details</h6>
-                <p className="no-margin">Hash: {value.tx[0].hash}</p>
+               <p className="no-margin hash-break">Hash: {value.tx[0].hash}</p>
                 <p className="no-margin">Size: {value.tx[0].size}</p>
                 <p className="no-margin">Weight: {value.tx[0].weight}</p>
            </li>
